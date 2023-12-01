@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(166, 0, 255);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(1,300px);
+}
+
+#cityInput{
+  background-color: rgb(248, 125, 248);
+  height: 30px;
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+  border: 0px;
+  border-bottom: 2px solid yellow;
+  border-radius: 10px 0px 10px 0px;
+}
+
+#cityDetails{
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
+  text-shadow: 1px 1px #000000;
+
+}
+
+#date{
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 1px 1px #000000;
+}
+
+#temp{
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px #000000;
+
+
+  
+}
+#wheather{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px #000000;
+
+}
+
+#minMax{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px #000000;
+
+}
